@@ -1,0 +1,9 @@
+# Build output
+localeyes-plugin.zip
+*.zip
+
+# Binary docs kept out of history (build.ps1 already excludes them from the package)
+*.docx
+
+# Local tooling
+tools/vendor/phpstan.phar
